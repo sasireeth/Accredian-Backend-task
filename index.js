@@ -10,7 +10,7 @@ const port = process.env.PORT || 7001;
 const cors = require('cors');
 
 const corsOptions = {
-    origin: 'http://localhost:3004',
+    origin: 'https://accredian-frontend-task-tpjv.onrender.com/',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
 };
